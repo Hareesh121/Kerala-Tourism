@@ -1,0 +1,171 @@
+
+body
+{
+background-image: url(../images/blur.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+background-position: center;
+background-attachment: fixed;
+}
+
+.tile {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.di
+{
+    margin-top: 6rem;
+}
+
+
+.img-class {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.cs
+{
+    margin-top: 48px;
+    margin-bottom: 80px;
+    background-color: rgba(25, 29, 29, 0.658);
+
+}
+
+.img-fluid{
+    width: 100%;
+    height: 100%;
+}
+
+
+.col-md-4
+{
+    margin-top: 32px;
+}
+
+
+.caption-bottom
+ {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 500;
+    background: rgba(75, 36, 36, 0.658);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+span
+{   display: inline;
+   
+    font-size: 60px;
+     font-weight: bolder;  
+    
+    animation: mover 6s linear infinite;
+}
+.text-box
+{    
+    font-size: 50px;
+    font-family: sans-serif;
+    position: relative;
+    margin-left: 540px;
+   
+    animation: mover 6s linear infinite;
+}
+
+
+@keyframes mover {
+  
+    50%{transform: translateY(16px);}
+}
+
+.text-box span
+{   color: rgb(22, 22, 95);
+    text-shadow: 0 1px 0 rgb(14, 78, 14),
+    0 2px 0 #15881b,
+    0 3px 0 rgb(29, 121, 78),
+    0 4px 0 #159420,
+    0 5px 0 rgb(32, 116, 43),
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: rgb(94, 255, 20);
+}
+
+
+   
+ul{
+    list-style: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    }
+    
+    ul a{
+        text-decoration: none;
+        outline: none;
+        color:#fff ;
+        transition: 0.2s;
+    }
+    ul a:hover
+    {
+        color:rgb(0, 255, 64)
+    }
+    
+    
+    
+    
+    .max
+    {
+        background-color: rgb(18, 92, 28)
+    }
+    
+    .mac
+    {  
+        color: azure;
+      text-align: center;
+      
+        
+       
+    }
+    .maz
+    {    
+        color: azure;
+        text-align: justify;
+        
+       
+    }
+    .mav
+    {
+        background-color: #20353f;
+        color: azure;
+    }
+ 
+ .container-fluid .row
+{
+    padding-bottom: 60px;
+}
+  
+.ko .row
+{
+    padding-bottom: 5px;
+}
