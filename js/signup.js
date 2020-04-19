@@ -132,34 +132,29 @@ return true;
 
     case 0:
     strengthbar.style.width ='0%';
+    document.getElementById('strength1').innerText="Enter password";
     break;
 
     case 1:
     strengthbar.style.width ='30%';
+    
+document.getElementById('strength1').innerText="Poor";
     strengthbar.style.backgroundColor='red';
    break;
 
     case 2:
     strengthbar.style.width ='60%';
+    document.getElementById('strength1').innerText="Medium";
     strengthbar.style.backgroundColor='orange';
     break;
 
     case 3:
     strengthbar.style.width ='100%';
+    document.getElementById('strength1').innerText="strong";
     strengthbar.style.backgroundColor='green';
     break;
 
-    // case 4:
-    // str.style.width ='100%';
-    // str.style.backgroundColor='green';
-    // break;
-
-
-    // case 5:
-    // str.style.width='100%';
-    // str.style.backgroundColor='green';
-    // break;
-
+   
 
 
   }
