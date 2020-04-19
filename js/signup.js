@@ -7,7 +7,7 @@ function validate()
     let email = document.getElementById("email");
     let pass= document.getElementById('password');
     let copass= document.getElementById('confpass');
-//     let error = document.getElementById("error");
+
 
     let reg=/^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+).([a-z]{2,3})(.[a-z]{2,3})?$/;
     let regexp =/^\d{3}[-.\s]?\d{3}[-.\s]?\d{4}$/;
@@ -101,16 +101,16 @@ return true;
   
   var strengthbar= document.getElementById('strength');
   var strength=0;
-  // if(password.match(/[a-zA-Z0-9][a-zA-Z0-9]+/))
-  if(password.match(/[A-Z0-9]+/))
+
+  if(password.match(/[a-z0-9]+/))
   {
     strength += 1;
   
   }
   
 
-  // if(password.match(/[?><^]+/))
-  if(password.match(/[a-z]+/))
+ 
+  if(password.match(/[A-Z]+/))
   {
     strength += 1;
   
@@ -118,7 +118,7 @@ return true;
   
 
 
-  // if(password.match(/[!@#$%&*]+/))
+
   if(password.match(/[0-9]+/) && (password.length>=8))
   {
     strength += 1;
